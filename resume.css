@@ -1,0 +1,68 @@
+/*
+    Name: Kodee Batchelor
+    Date:  25 February 2025
+    This is the style.css page for my resume page.
+    It is used by all pages in my resume to give the site a consistent
+    look and feel.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+h1, h2{
+    color: rgb(95, 35, 95);
+    background-color: rgb(246, 235, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+header > p {
+    font-style: italic;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+h2{
+    font-size: 21pt;
+}
+
+strong{
+    color: rgb(95, 35, 95);
+}
+
+header hr{
+    background-color: rgb(95, 35, 95);
+    height: 3px;
+    border: none;
+}
+
+#Education li{
+    list-style-type: circle; 
+}
+
+#References li{
+    list-style-type: "-";
+}
+
+h2 ~ p{
+    font-size: 15pt;
+}
+
+body{
+    font-family: 'Merriweather', sans-serif;
+}
+
+#References, #Education{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Softball{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
